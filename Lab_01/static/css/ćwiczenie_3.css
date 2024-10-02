@@ -1,0 +1,29 @@
+.flex-container {
+            display: flex;
+        }
+.square {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+ .flex-container:nth-child(1) .square:nth-child(1) {
+            background-color: red;
+        }
+
+  .flex-container:nth-child(1) .square:nth-child(2) {
+            background-color: green;
+        }
+
+  .flex-container:nth-child(2) .square:nth-child(1) {
+            background-color: blue;
+        }
+
+  .flex-container:nth-child(2) .square:nth-child(2) {
+            background-color: yellow;
+        }
+  .flex-container:nth-child(2) .square:nth-child(3) {
+            background-image: url("../images/img.png");
+    background-size: contain;
+    background-position: center;
+     background-repeat: no-repeat;
+        }
