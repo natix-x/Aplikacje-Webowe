@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  color: #faf8f1;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  top: 0px;
+}
+nav a {
+  color: black;
+  background-color: #e5ba73;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav a:hover {
+  color: #faf8f1;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+}
