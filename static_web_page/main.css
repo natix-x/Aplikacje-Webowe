@@ -1,7 +1,6 @@
 body {
-  background-color: black;
+  background-color: #352927;
   color: #faf8f1;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -21,7 +20,7 @@ nav ul {
 nav ul li:first-child {
   margin-right: auto;
   margin-top: 0px;
-  color: #e5ba73;
+  color: #e2c275;
   font-size: 30px;
 }
 nav ul li {
@@ -30,7 +29,7 @@ nav ul li {
 }
 nav a {
   color: black;
-  background-color: #e5ba73;
+  background-color: #e2c275;
   text-decoration: none;
   padding: 10px 20px;
   margin: auto;
@@ -38,7 +37,7 @@ nav a {
 nav a:hover {
   margin: auto;
   color: #faf8f1;
-  background-color: black;
+  background-color: #352927;
   text-decoration: none;
   padding: 10px 20px;
 }
@@ -46,8 +45,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e5ba73;
-  color: black;
+  background-color: #e2c275;
+  color: #352927;
   text-align: center;
   position: fixed;
 }
