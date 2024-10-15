@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
   <body>
@@ -15,6 +16,42 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <div class="form-container">
+      <h2>Write to us!</h2>
+      <br />
+      <form>
+        <div class="form-item-container">
+          <label for="email">Your email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example.example@mail.com"
+            required=""
+          />
+        </div>
+        <div class="form-item-container">
+          <label for="topic-select">Topic</label>
+          <select name="topics" id="topic-select">
+            <option value="">Please choose an option</option>
+            <option value="caravaggio">Associated with caravaggio</option>
+            <option value="colaboration">Colaboration</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-item-container">
+          <label for="text-message">Text message</label>
+          <textarea
+            id="text-message"
+            placeholder="Write something to us."
+            required=""
+          ></textarea>
+        </div>
+        <div class="form-submit-container">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
     <footer>Natalia Wrześniak</footer>
   </body>
 </html>
