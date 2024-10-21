@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../main.css" />
     <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
-  <body>
+  <body onload="startTime()">
     <nav>
       <ul>
         <li>Caravaggio world</li>
-        <li><a href="../home/home.html">Home</a></li>
+        <li><div id="time"></div></li>
+        <li><a href="../../index.html">Home</a></li>
         <li><a href="../gallery/gallery.html">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -19,7 +28,7 @@
     <div class="form-container">
       <h2>Write to us!</h2>
       <br />
-      <form>
+      <form name="contactForm" onsubmit="return validateForm()">
         <div class="form-item-container">
           <label for="email">Your email</label>
           <input
@@ -27,7 +36,6 @@
             id="email"
             name="email"
             placeholder="example.example@mail.com"
-            required=""
           />
         </div>
         <div class="form-item-container">
@@ -44,7 +52,6 @@
           <textarea
             id="text-message"
             placeholder="Write something to us."
-            required=""
           ></textarea>
         </div>
         <div class="form-submit-container">
@@ -53,5 +60,7 @@
       </form>
     </div>
     <footer>Natalia Wrześniak</footer>
+    <script src="contact.js"></script>
+    <script src="../../script.js"></script>
   </body>
 </html>
