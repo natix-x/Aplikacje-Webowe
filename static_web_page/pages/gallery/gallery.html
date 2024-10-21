@@ -3,18 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../../main.css" />
+    <link rel="stylesheet" href="gallery.css" />
     <title>Gallery</title>
   </head>
-  <body>
+  <body onload="startTime()">
     <nav>
       <ul>
         <li>Caravaggio world</li>
-        <li><a href="../home/home.html">Home</a></li>
+        <li><div id="time"></div></li>
+        <li><a href="../../index.html">Home</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="../contact/contact.html">Contact</a></li>
       </ul>
     </nav>
+    <div class="gallery-container">
+      <div class="image-container">
+        <img
+          src="images/the_incredulity_of_saint_thomas.jpg"
+          alt="The Incredulity of Saint Thomas"
+        />
+      </div>
+
+      <div class="image-container">
+        <img
+          src="images/calling_of_saint_matthew.jpg"
+          alt="Calling of Saint Matthew"
+        />
+      </div>
+      <div class="image-container">
+        <img
+          src="images/judith_beheading_holofernes.jpg"
+          alt="Judith Beheading Holofernes"
+        />
+      </div>
+      <div class="image-container">
+        <img src="images/the_fortune_teller.jpg" alt="The fortune teller" />
+      </div>
+      <div class="image-container">
+        <img
+          src="images/beheading_of_saint_john.jpg"
+          alt="Beheading of Saint John"
+        />
+      </div>
+      <div class="image-container">
+        <img src="images/saint_jerome.jpg" alt="Saint Jerome" />
+      </div>
+      <div class="image-container">
+        <img
+          src="images/salome_with-the_head_of_st_john_the_baptist.jpg"
+          alt="Salome with the head of st John the Baptist"
+        />
+      </div>
+      <div class="image-container">
+        <img src="images/the_carsharps.jpg" alt="The Carsharps" />
+      </div>
+      <div class="image-container">
+        <img
+          src="images/the_taking_of_the_christ.jpg"
+          alt="The Taking of Christ"
+        />
+      </div>
+      <div class="image-container">
+        <img src="images/the_toothpuller.jpg" alt="The toothpuller" />
+      </div>
+      <div class="image-container">
+        <img src="images/supper_at_emmaus.jpg" alt="Supper at Emmaus" />
+      </div>
+      <div class="image-container">
+        <img src="images/crowning_with_thorns.jpg" alt="Crowning with thorns" />
+      </div>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/CV2CcBURRtQ"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
     <footer>Natalia Wrześniak</footer>
+    <script src="gallery.js"></script>
+    <script src="../../script.js"></script>
   </body>
 </html>
