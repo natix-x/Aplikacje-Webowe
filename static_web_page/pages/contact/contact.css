@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form-item-container {
@@ -14,8 +15,8 @@
 }
 
 .form-item-container label {
-  margin-bottom: 5px;
   color: #352927;
+  margin-bottom: 20px;
 }
 
 form {
@@ -24,6 +25,7 @@ form {
   padding: 20px;
   background-color: #e2c275;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .form-item-container input[type="email"],

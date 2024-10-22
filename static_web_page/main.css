@@ -22,11 +22,12 @@ nav ul li:first-child {
   margin-right: auto;
   margin-top: 0px;
   color: #e2c275;
-  font-size: 30px;
+  font-size: 3vw;
 }
 nav ul li {
   list-style: none;
   margin: 10px;
+  font-size: 2vw;
 }
 nav a {
   color: black;
